@@ -8,7 +8,7 @@ These are the **instructions** to follow:
 | Action / Command | Description |
 | --- | --- |
 | `git clone <code_link>` | Clone repo in your chosen location, make sure all dependencies are installed |
-| update WALLEY_KEY, API_URL, and API_KEY on secret.json | Paste fields following provided instructions. Recommended, wallet: Metamask, node provider: Alchemy / Infura |
+| update WALLET_KEY, API_URL, and API_KEY on secret.json | Paste fields following provided instructions. Recommended, wallet: Metamask, node provider: Alchemy / Infura |
 | `npx hardhat compile` | Compile smart contract |
 | `npx hardhat test` | Run test of the setGreeting() function in HelloWeb3.sol |
 | `npx hardhat run scripts/deploy.js --network <network_name>` | Deploy smart contract. Returns address at which it was deployed |
